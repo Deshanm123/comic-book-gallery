@@ -7,7 +7,7 @@
         public int IssueNumber{ get; set; }
         public string DescriptionHtml { get; set; } 
         public Artist[] Artists { get; set; }  
-        public bool favorite { get; set; }
+        public bool Favorite { get; set; }
 
         //This property will be readonly(inother words value cannot be changed by a setter,since no setter
         public string DisplayText
